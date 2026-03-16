@@ -1,0 +1,15 @@
+C:\Users\lfcandido\RiderProjects\CashFlow\tests\CommonTestsUtils\bin\Debug\net10.0\CommonTestsUtils.deps.json
+C:\Users\lfcandido\RiderProjects\CashFlow\tests\CommonTestsUtils\bin\Debug\net10.0\CommonTestsUtils.dll
+C:\Users\lfcandido\RiderProjects\CashFlow\tests\CommonTestsUtils\bin\Debug\net10.0\CommonTestsUtils.pdb
+C:\Users\lfcandido\RiderProjects\CashFlow\tests\CommonTestsUtils\bin\Debug\net10.0\CashFlow.Communication.dll
+C:\Users\lfcandido\RiderProjects\CashFlow\tests\CommonTestsUtils\bin\Debug\net10.0\CashFlow.Communication.pdb
+C:\Users\lfcandido\RiderProjects\CashFlow\tests\CommonTestsUtils\obj\Debug\net10.0\CommonTestsUtils.csproj.AssemblyReference.cache
+C:\Users\lfcandido\RiderProjects\CashFlow\tests\CommonTestsUtils\obj\Debug\net10.0\CommonTestsUtils.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lfcandido\RiderProjects\CashFlow\tests\CommonTestsUtils\obj\Debug\net10.0\CommonTestsUtils.AssemblyInfoInputs.cache
+C:\Users\lfcandido\RiderProjects\CashFlow\tests\CommonTestsUtils\obj\Debug\net10.0\CommonTestsUtils.AssemblyInfo.cs
+C:\Users\lfcandido\RiderProjects\CashFlow\tests\CommonTestsUtils\obj\Debug\net10.0\CommonTestsUtils.csproj.CoreCompileInputs.cache
+C:\Users\lfcandido\RiderProjects\CashFlow\tests\CommonTestsUtils\obj\Debug\net10.0\CommonTe.704ED735.Up2Date
+C:\Users\lfcandido\RiderProjects\CashFlow\tests\CommonTestsUtils\obj\Debug\net10.0\CommonTestsUtils.dll
+C:\Users\lfcandido\RiderProjects\CashFlow\tests\CommonTestsUtils\obj\Debug\net10.0\refint\CommonTestsUtils.dll
+C:\Users\lfcandido\RiderProjects\CashFlow\tests\CommonTestsUtils\obj\Debug\net10.0\CommonTestsUtils.pdb
+C:\Users\lfcandido\RiderProjects\CashFlow\tests\CommonTestsUtils\obj\Debug\net10.0\ref\CommonTestsUtils.dll
