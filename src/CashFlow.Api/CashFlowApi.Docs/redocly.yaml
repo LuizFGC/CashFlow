@@ -1,0 +1,14 @@
+﻿apis:
+  main:
+    root: ./openapi.json
+
+reunite:
+  ignoreMarkdocErrors: true
+
+ignore:
+  - '**/obj/**'
+  - '**/bin/**'
+  - 'src/**/obj/**'
+  - 'src/**/bin/**'
+  - 'tests/**/obj/**'
+  - 'tests/**/bin/**'

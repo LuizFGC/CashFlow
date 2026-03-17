@@ -14,4 +14,6 @@ public interface IDespesasRepository
     
     Task<Despesa?> GetByIdUpdate(long id);
     void Update( Despesa despesa);
+
+    Task<List<Despesa>> FiltrarMes(DateOnly month);
 } 

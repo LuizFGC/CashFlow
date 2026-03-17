@@ -50,4 +50,17 @@ internal class DespesasRepository : IDespesasRepository
     {
         _dbContext.Despesas.Update(despesa);
     }
+
+    public async Task<List<Despesa>> FiltrarMes(DateOnly month)
+    {
+        var inicio = new DateOnly(month.Year, month.Month, 1);
+        var fim = inicio.AddMonths(1);
+        
+      return await _dbContext
+            .Despesas
+            .AsNoTracking()
+            .Where(despesa => despesa.Data >= inicio && despesa.Data < fim)
+            .OrderBy(despesa => despesa.Title)
+            .ToListAsync();
+    }
 }

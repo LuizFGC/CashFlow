@@ -6,7 +6,7 @@ public class RequestDespesa
 {
     public string Title { get; set; } = String.Empty;
     
-    public string Descricao { get; set; } = String.Empty;
+    public string Description { get; set; } = String.Empty;
     
     public DateOnly Data { get; set; } 
     
