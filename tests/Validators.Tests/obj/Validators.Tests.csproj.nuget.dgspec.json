@@ -1,45 +1,40 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lfcandido\\RiderProjects\\CashFlow\\tests\\Validators.Tests\\Validators.Tests.csproj": {}
+    "/home/lfcandido/RiderProjects/CashFlow/tests/Validators.Tests/Validators.Tests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lfcandido\\RiderProjects\\CashFlow\\src\\CashFlow.Application\\CashFlow.Application.csproj": {
+    "/home/lfcandido/RiderProjects/CashFlow/src/CashFlow.Application/CashFlow.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lfcandido\\RiderProjects\\CashFlow\\src\\CashFlow.Application\\CashFlow.Application.csproj",
+        "projectUniqueName": "/home/lfcandido/RiderProjects/CashFlow/src/CashFlow.Application/CashFlow.Application.csproj",
         "projectName": "CashFlow.Application",
-        "projectPath": "C:\\Users\\lfcandido\\RiderProjects\\CashFlow\\src\\CashFlow.Application\\CashFlow.Application.csproj",
-        "packagesPath": "C:\\Users\\lfcandido\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lfcandido\\RiderProjects\\CashFlow\\src\\CashFlow.Application\\obj\\",
+        "projectPath": "/home/lfcandido/RiderProjects/CashFlow/src/CashFlow.Application/CashFlow.Application.csproj",
+        "packagesPath": "/home/lfcandido/.nuget/packages/",
+        "outputPath": "/home/lfcandido/RiderProjects/CashFlow/src/CashFlow.Application/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\lfcandido\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/lfcandido/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "/usr/lib/dotnet/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net10.0": {
             "targetAlias": "net10.0",
             "projectReferences": {
-              "C:\\Users\\lfcandido\\RiderProjects\\CashFlow\\src\\CashFlow.Communication\\CashFlow.Communication.csproj": {
-                "projectPath": "C:\\Users\\lfcandido\\RiderProjects\\CashFlow\\src\\CashFlow.Communication\\CashFlow.Communication.csproj"
+              "/home/lfcandido/RiderProjects/CashFlow/src/CashFlow.Communication/CashFlow.Communication.csproj": {
+                "projectPath": "/home/lfcandido/RiderProjects/CashFlow/src/CashFlow.Communication/CashFlow.Communication.csproj"
               },
-              "C:\\Users\\lfcandido\\RiderProjects\\CashFlow\\src\\CashFlow.Domain\\CashFlow.Domain.csproj": {
-                "projectPath": "C:\\Users\\lfcandido\\RiderProjects\\CashFlow\\src\\CashFlow.Domain\\CashFlow.Domain.csproj"
+              "/home/lfcandido/RiderProjects/CashFlow/src/CashFlow.Domain/CashFlow.Domain.csproj": {
+                "projectPath": "/home/lfcandido/RiderProjects/CashFlow/src/CashFlow.Domain/CashFlow.Domain.csproj"
               },
-              "C:\\Users\\lfcandido\\RiderProjects\\CashFlow\\src\\CashFlow.Exeception\\CashFlow.Exeception.csproj": {
-                "projectPath": "C:\\Users\\lfcandido\\RiderProjects\\CashFlow\\src\\CashFlow.Exeception\\CashFlow.Exeception.csproj"
+              "/home/lfcandido/RiderProjects/CashFlow/src/CashFlow.Exeception/CashFlow.Exeception.csproj": {
+                "projectPath": "/home/lfcandido/RiderProjects/CashFlow/src/CashFlow.Exeception/CashFlow.Exeception.csproj"
               }
             }
           }
@@ -89,7 +84,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.103/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/10.0.104/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",
@@ -367,28 +362,23 @@
         }
       }
     },
-    "C:\\Users\\lfcandido\\RiderProjects\\CashFlow\\src\\CashFlow.Communication\\CashFlow.Communication.csproj": {
+    "/home/lfcandido/RiderProjects/CashFlow/src/CashFlow.Communication/CashFlow.Communication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lfcandido\\RiderProjects\\CashFlow\\src\\CashFlow.Communication\\CashFlow.Communication.csproj",
+        "projectUniqueName": "/home/lfcandido/RiderProjects/CashFlow/src/CashFlow.Communication/CashFlow.Communication.csproj",
         "projectName": "CashFlow.Communication",
-        "projectPath": "C:\\Users\\lfcandido\\RiderProjects\\CashFlow\\src\\CashFlow.Communication\\CashFlow.Communication.csproj",
-        "packagesPath": "C:\\Users\\lfcandido\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lfcandido\\RiderProjects\\CashFlow\\src\\CashFlow.Communication\\obj\\",
+        "projectPath": "/home/lfcandido/RiderProjects/CashFlow/src/CashFlow.Communication/CashFlow.Communication.csproj",
+        "packagesPath": "/home/lfcandido/.nuget/packages/",
+        "outputPath": "/home/lfcandido/RiderProjects/CashFlow/src/CashFlow.Communication/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\lfcandido\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/lfcandido/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "/usr/lib/dotnet/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -428,7 +418,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.103/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/10.0.104/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",
@@ -706,28 +696,23 @@
         }
       }
     },
-    "C:\\Users\\lfcandido\\RiderProjects\\CashFlow\\src\\CashFlow.Domain\\CashFlow.Domain.csproj": {
+    "/home/lfcandido/RiderProjects/CashFlow/src/CashFlow.Domain/CashFlow.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lfcandido\\RiderProjects\\CashFlow\\src\\CashFlow.Domain\\CashFlow.Domain.csproj",
+        "projectUniqueName": "/home/lfcandido/RiderProjects/CashFlow/src/CashFlow.Domain/CashFlow.Domain.csproj",
         "projectName": "CashFlow.Domain",
-        "projectPath": "C:\\Users\\lfcandido\\RiderProjects\\CashFlow\\src\\CashFlow.Domain\\CashFlow.Domain.csproj",
-        "packagesPath": "C:\\Users\\lfcandido\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lfcandido\\RiderProjects\\CashFlow\\src\\CashFlow.Domain\\obj\\",
+        "projectPath": "/home/lfcandido/RiderProjects/CashFlow/src/CashFlow.Domain/CashFlow.Domain.csproj",
+        "packagesPath": "/home/lfcandido/.nuget/packages/",
+        "outputPath": "/home/lfcandido/RiderProjects/CashFlow/src/CashFlow.Domain/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\lfcandido\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/lfcandido/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "/usr/lib/dotnet/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -767,7 +752,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.103/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/10.0.104/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",
@@ -1045,28 +1030,23 @@
         }
       }
     },
-    "C:\\Users\\lfcandido\\RiderProjects\\CashFlow\\src\\CashFlow.Exeception\\CashFlow.Exeception.csproj": {
+    "/home/lfcandido/RiderProjects/CashFlow/src/CashFlow.Exeception/CashFlow.Exeception.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lfcandido\\RiderProjects\\CashFlow\\src\\CashFlow.Exeception\\CashFlow.Exeception.csproj",
+        "projectUniqueName": "/home/lfcandido/RiderProjects/CashFlow/src/CashFlow.Exeception/CashFlow.Exeception.csproj",
         "projectName": "CashFlow.Exeception",
-        "projectPath": "C:\\Users\\lfcandido\\RiderProjects\\CashFlow\\src\\CashFlow.Exeception\\CashFlow.Exeception.csproj",
-        "packagesPath": "C:\\Users\\lfcandido\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lfcandido\\RiderProjects\\CashFlow\\src\\CashFlow.Exeception\\obj\\",
+        "projectPath": "/home/lfcandido/RiderProjects/CashFlow/src/CashFlow.Exeception/CashFlow.Exeception.csproj",
+        "packagesPath": "/home/lfcandido/.nuget/packages/",
+        "outputPath": "/home/lfcandido/RiderProjects/CashFlow/src/CashFlow.Exeception/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\lfcandido\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/lfcandido/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "/usr/lib/dotnet/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -1106,7 +1086,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.103/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/10.0.104/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",
@@ -1384,36 +1364,31 @@
         }
       }
     },
-    "C:\\Users\\lfcandido\\RiderProjects\\CashFlow\\tests\\CommonTestsUtils\\CommonTestsUtils.csproj": {
+    "/home/lfcandido/RiderProjects/CashFlow/tests/CommonTestsUtils/CommonTestsUtils.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lfcandido\\RiderProjects\\CashFlow\\tests\\CommonTestsUtils\\CommonTestsUtils.csproj",
+        "projectUniqueName": "/home/lfcandido/RiderProjects/CashFlow/tests/CommonTestsUtils/CommonTestsUtils.csproj",
         "projectName": "CommonTestsUtils",
-        "projectPath": "C:\\Users\\lfcandido\\RiderProjects\\CashFlow\\tests\\CommonTestsUtils\\CommonTestsUtils.csproj",
-        "packagesPath": "C:\\Users\\lfcandido\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lfcandido\\RiderProjects\\CashFlow\\tests\\CommonTestsUtils\\obj\\",
+        "projectPath": "/home/lfcandido/RiderProjects/CashFlow/tests/CommonTestsUtils/CommonTestsUtils.csproj",
+        "packagesPath": "/home/lfcandido/.nuget/packages/",
+        "outputPath": "/home/lfcandido/RiderProjects/CashFlow/tests/CommonTestsUtils/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\lfcandido\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/lfcandido/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "/usr/lib/dotnet/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net10.0": {
             "targetAlias": "net10.0",
             "projectReferences": {
-              "C:\\Users\\lfcandido\\RiderProjects\\CashFlow\\src\\CashFlow.Communication\\CashFlow.Communication.csproj": {
-                "projectPath": "C:\\Users\\lfcandido\\RiderProjects\\CashFlow\\src\\CashFlow.Communication\\CashFlow.Communication.csproj"
+              "/home/lfcandido/RiderProjects/CashFlow/src/CashFlow.Communication/CashFlow.Communication.csproj": {
+                "projectPath": "/home/lfcandido/RiderProjects/CashFlow/src/CashFlow.Communication/CashFlow.Communication.csproj"
               }
             }
           }
@@ -1455,7 +1430,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.103/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/10.0.104/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",
@@ -1733,39 +1708,34 @@
         }
       }
     },
-    "C:\\Users\\lfcandido\\RiderProjects\\CashFlow\\tests\\Validators.Tests\\Validators.Tests.csproj": {
+    "/home/lfcandido/RiderProjects/CashFlow/tests/Validators.Tests/Validators.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lfcandido\\RiderProjects\\CashFlow\\tests\\Validators.Tests\\Validators.Tests.csproj",
+        "projectUniqueName": "/home/lfcandido/RiderProjects/CashFlow/tests/Validators.Tests/Validators.Tests.csproj",
         "projectName": "Validators.Tests",
-        "projectPath": "C:\\Users\\lfcandido\\RiderProjects\\CashFlow\\tests\\Validators.Tests\\Validators.Tests.csproj",
-        "packagesPath": "C:\\Users\\lfcandido\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lfcandido\\RiderProjects\\CashFlow\\tests\\Validators.Tests\\obj\\",
+        "projectPath": "/home/lfcandido/RiderProjects/CashFlow/tests/Validators.Tests/Validators.Tests.csproj",
+        "packagesPath": "/home/lfcandido/.nuget/packages/",
+        "outputPath": "/home/lfcandido/RiderProjects/CashFlow/tests/Validators.Tests/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\lfcandido\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/lfcandido/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "/usr/lib/dotnet/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net10.0": {
             "targetAlias": "net10.0",
             "projectReferences": {
-              "C:\\Users\\lfcandido\\RiderProjects\\CashFlow\\src\\CashFlow.Application\\CashFlow.Application.csproj": {
-                "projectPath": "C:\\Users\\lfcandido\\RiderProjects\\CashFlow\\src\\CashFlow.Application\\CashFlow.Application.csproj"
+              "/home/lfcandido/RiderProjects/CashFlow/src/CashFlow.Application/CashFlow.Application.csproj": {
+                "projectPath": "/home/lfcandido/RiderProjects/CashFlow/src/CashFlow.Application/CashFlow.Application.csproj"
               },
-              "C:\\Users\\lfcandido\\RiderProjects\\CashFlow\\tests\\CommonTestsUtils\\CommonTestsUtils.csproj": {
-                "projectPath": "C:\\Users\\lfcandido\\RiderProjects\\CashFlow\\tests\\CommonTestsUtils\\CommonTestsUtils.csproj"
+              "/home/lfcandido/RiderProjects/CashFlow/tests/CommonTestsUtils/CommonTestsUtils.csproj": {
+                "projectPath": "/home/lfcandido/RiderProjects/CashFlow/tests/CommonTestsUtils/CommonTestsUtils.csproj"
               }
             }
           }
@@ -1823,7 +1793,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.103/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/10.0.104/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",

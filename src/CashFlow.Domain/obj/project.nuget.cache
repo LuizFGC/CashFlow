@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "k0aeLdZML64=",
+  "dgSpecHash": "2eYg8iQOurw=",
   "success": true,
-  "projectFilePath": "C:\\Users\\lfcandido\\RiderProjects\\CashFlow\\src\\CashFlow.Domain\\CashFlow.Domain.csproj",
+  "projectFilePath": "/home/lfcandido/RiderProjects/CashFlow/src/CashFlow.Domain/CashFlow.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
