@@ -11,7 +11,7 @@ public class RequestRegistrarDespesaBuilder
 
       return  new Faker<RequestDespesa>()
             .RuleFor(r => r.Title, f => f.Commerce.ProductName())
-            .RuleFor(r => r.Descricao, f => f.Commerce.ProductDescription())
+            .RuleFor(r => r.Description, f => f.Commerce.ProductDescription())
             .RuleFor(r => r.Data, f => f.Date.FutureDateOnly())
             .RuleFor(r => r.Valor, f => f.Finance.Amount())
             .RuleFor(r => r.TipoDePagamento, f => f.PickRandom<TipoPagamento>());
