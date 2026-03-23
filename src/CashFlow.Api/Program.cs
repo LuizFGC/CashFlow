@@ -1,16 +1,34 @@
+using System.Text;
 using CashFlow.Api.Filters;
 using CashFlow.Application;
 using CashFlow.Infrastrucutre;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.IdentityModel.Tokens;
 using Scalar.AspNetCore;
 
 var builder = WebApplication.CreateBuilder(args);
-
+var signingKey = builder.Configuration.GetValue<string>("Settings:Jwt:SigningKey");
 builder.Services.AddControllers();
 builder.Services.AddOpenApi();
 
 builder.Services.AddMvc(options => options.Filters.Add(typeof(ExceptionFilter)));
 builder.Services.AddInfrastructure(builder.Configuration);
 builder.Services.AddApplication();
+
+builder.Services.AddAuthentication(config =>
+{
+    config.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+    config.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+}).AddJwtBearer(config =>
+{
+    config.TokenValidationParameters = new TokenValidationParameters
+    {
+        ValidateIssuer = false,
+        ValidateAudience = false,
+        ClockSkew = TimeSpan.Zero,
+        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(signingKey!))
+    };
+});
 
 builder.Services.AddCors(options =>
 {
@@ -43,6 +61,7 @@ else
 
 app.UseCors("DocsCors");
 
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();
