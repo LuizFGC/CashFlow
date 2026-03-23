@@ -29,7 +29,7 @@ public class PasswordValidator<T> : PropertyValidator<T, string>
             return false;
         }
 
-        if (!Regex.IsMatch(password, @"^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[^a-zA-Z\d\s])$"))
+        if (!Regex.IsMatch(password, @"^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[\W_]).+$"))
         {
             context.MessageFormatter.AppendArgument("ErrorMessage", "Senha deve conter 1 letra Maiuscula,1 letra minuscula, 1 caracter especial, e um Numero");
             return false;
