@@ -5,7 +5,6 @@ using CashFlow.Application.UseCases.Despesas.GetById;
 using CashFlow.Application.UseCases.Despesas.Update;
 using CashFlow.Communication.Requests;
 using CashFlow.Communication.Responses;
-using CashFlow.Domain.Repositories.Despesas;
 using Microsoft.AspNetCore.Mvc;
 
 namespace CashFlow.Api.Controllers

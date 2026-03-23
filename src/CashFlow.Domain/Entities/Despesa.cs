@@ -15,4 +15,8 @@ public class Despesa
     public decimal Valor { get; set; }
     
     public  TipoPagamento TipoPagamento { get; set; }
+    
+    public long UserId { get; set; }
+
+    public User User { get; set; } = default!;
 }
