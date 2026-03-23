@@ -9,6 +9,8 @@ public class CashFlowDbContext : DbContext
     public CashFlowDbContext(DbContextOptions<CashFlowDbContext> options) : base(options) {}
     
     public DbSet<Despesa>Despesas { get; set; }
+    public DbSet<User>Users { get; set; }
+    
 
 
 }

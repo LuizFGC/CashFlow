@@ -5,6 +5,7 @@ using CashFlow.Domain.Entities;
 using CashFlow.Domain.Repositories;
 using CashFlow.Domain.Repositories.Despesas;
 using CashFlow.Domain.Security.Cryptography;
+using CashFlow.Domain.Security.Tokens;
 using CashFlow.Exeception.ExceptionsBase;
 
 namespace CashFlow.Application.UseCases.Users.Criar;
@@ -15,13 +16,15 @@ public class CreateUserUseCase : ICreateUserUseCase
     private readonly IUnidadeDeTrabalho _unidadeDeTrabalho;
     private readonly IMapper _mapper;
     private readonly IPasswordEncripter _passwordEncripter;
+    private readonly IAcessTokenGenerator _tokenGenerator;
 
-    public CreateUserUseCase(IUserRepository repository, IUnidadeDeTrabalho unidadeDeTrabalho, IMapper mapper,IPasswordEncripter passwordEncripter)
+    public CreateUserUseCase(IUserRepository repository, IUnidadeDeTrabalho unidadeDeTrabalho, IMapper mapper,IPasswordEncripter passwordEncripter, IAcessTokenGenerator tokenGenerator)
     {
         _repository = repository;
         _unidadeDeTrabalho = unidadeDeTrabalho;
         _mapper = mapper;
         _passwordEncripter = passwordEncripter;
+        _tokenGenerator = tokenGenerator;
     }
     
     public async Task<ResponseCreateUser> Execute(RequestCreateUser request)
