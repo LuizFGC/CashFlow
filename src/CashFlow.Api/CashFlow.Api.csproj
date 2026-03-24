@@ -4,20 +4,24 @@
         <TargetFramework>net10.0</TargetFramework>
         <Nullable>enable</Nullable>
         <ImplicitUsings>enable</ImplicitUsings>
+        <GenerateDocumentationFile>false</GenerateDocumentationFile>
     </PropertyGroup>
 
     <ItemGroup>
-        <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.3" />
+        <PackageReference Include="AutoMapper" Version="16.1.1" />
+        <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="10.0.5" />
+        <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.5" />
+        <PackageReference Include="Microsoft.OpenApi" Version="2.3.9" />
         <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="10.0.2" />
         <PackageReference Include="Scalar.AspNetCore" Version="2.13.1" />
         <PackageReference Include="Swashbuckle.AspNetCore.SwaggerUI" Version="10.1.4" />
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\CashFlow.Application\CashFlow.Application.csproj" />
-      <ProjectReference Include="..\CashFlow.Communication\CashFlow.Communication.csproj" />
-      <ProjectReference Include="..\CashFlow.Exeception\CashFlow.Exeception.csproj" />
-      <ProjectReference Include="..\CashFlow.Infrastructure\CashFlow.Infrastructure.csproj" />
+        <ProjectReference Include="..\CashFlow.Application\CashFlow.Application.csproj" />
+        <ProjectReference Include="..\CashFlow.Communication\CashFlow.Communication.csproj" />
+        <ProjectReference Include="..\CashFlow.Exeception\CashFlow.Exeception.csproj" />
+        <ProjectReference Include="..\CashFlow.Infrastructure\CashFlow.Infrastructure.csproj" />
     </ItemGroup>
 
 </Project>

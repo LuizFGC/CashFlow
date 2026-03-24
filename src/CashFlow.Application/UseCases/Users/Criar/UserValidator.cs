@@ -8,10 +8,13 @@ public class UserValidator : AbstractValidator<RequestCreateUser>
     public UserValidator()
     {
         RuleFor(u => u.Name).NotEmpty().WithMessage("Nome e Obrigatorio");
-        RuleFor(U => U.Email)
-            .NotEmpty().WithMessage("E-mail e Obrigatorio")
-            .EmailAddress().WithMessage("E-mail e Invalido");
+        RuleFor(u => u.Email)
+            .NotEmpty()
+            .WithMessage("E-mail e Obrigatorio")
+            .EmailAddress()
+            .When(u => string.IsNullOrWhiteSpace(u.Email) == false, ApplyConditionTo.CurrentValidator)
+            .WithMessage("E-mail e Invalido");
         
-        RuleFor(U => U.Password).SetValidator(new PasswordValidator<RequestCreateUser>());
+        RuleFor(u => u.Password).SetValidator(new PasswordValidator<RequestCreateUser>());
     }
 }
